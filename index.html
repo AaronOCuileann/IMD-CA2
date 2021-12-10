@@ -26,7 +26,7 @@
 </head>
 
 <body data-spy="scroll" data-bs-target="#EpicNavbar" data-offset="50">
-    <section class="text-white tm-font-big parallax">
+    <section class="text-white parallax">
         <nav id="EpicNavbar" class="navbar navbar-light bg-light px-3 fixed-top">
             <a class="navbar-brand mx-auto" href="#">Aaron O Cuileann</a>
             <ul class="nav nav-pills mx-auto">
@@ -50,10 +50,10 @@
                 </li>
             </ul>
         </nav>
-        <div class="text-center tm-hero-text-container">
-            <div class="tm-hero-text-container">
-                <h2 class="tm-hero-title">Aaron O Cuileann</h2>
-                <p class="tm-hero-subtitle">
+        <div class="text-center main-text-container">
+            <div class="main-text-container">
+                <h2 class="main-title">Aaron O Cuileann</h2>
+                <p>
                     4th Yr Bsc (Hons) Computer Science in Software Development
                     <br />TUD Tallaght
                 </p>
@@ -61,6 +61,9 @@
                 <div class="text-center m-top-50">
                     <a class="btn" href="AaronOCuileann-CV.pdf" title="" download>Open CV</a>
                 </div>
+                <br>
+                <span id="clock"></span>
+                <br>
             </div>
         </div>
     </section>
@@ -68,73 +71,118 @@
         <div class="row">
             <div>
                 <div data-bs-spy="scroll" data-bs-target="#EpicNavbar" data-offset="0">
-                    <section class="text-white tm-font-big parallax2">
-                        <div class="text-center tm-hero-text-container" id="AboutMe">
-                            <div class="tm-hero-text-container">
-                                <h2 class="tm-hero-title">About Me</h2>
+                    <section class="text-white parallax2">
+                        <div class="text-center main-text-container" id="AboutMe">
+                            <div class="main-text-container">
+                                <h2 class="main-title">About Me</h2>
                             </div>
                         </div>
                     </section>
                     <br>
                     <section>
                         <div>
-                            <div class="row align-items-center flex-row-reverse">
-                                <div class="col-lg-6">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div>
+                                        <img src="images/avatar-aaron.jpg" height="480px">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
                                     <div>
                                         <h3> Aaron O Cuileann</h6>
                                             <h6> 4th Yr Bsc (Hons) Computer Science in Software
                                                 Development</h6>
-                                            <p>I design and develop services for customers of all sizes,
-                                                specializing in creating stylish, modern websites, web services and
-                                                online
-                                                stores. My passion is to design digital user experiences through the
-                                                bold
-                                                interface and meaningful interactions.</p>
+                                            <p>My name is Aaron O Cuileann, I am a Software Development student in my
+                                                fourht year at Technology Universtiy Dublin, Tallaght Campus. I am an
+                                                indivisual that is eager to learn everyday, constatntly trying to
+                                                improve on my development skills as well as my communication skills.</p>
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div>
-                                                        <label>Birthday: </label>
+                                                        <p>Birthday: </p>
                                                         <p>11th May 1999</p>
                                                     </div>
                                                     <div>
-                                                        <label>Age: </label>
+                                                        <p>Age: </p>
                                                         <p>22 Years Old</p>
                                                     </div>
                                                     <div>
-                                                        <label>Residence:</label>
+                                                        <p>Country:</p>
                                                         <p>Ireland</p>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div>
-                                                        <label>Address:</label>
+                                                        <p>Address:</p>
                                                         <p>Clondalkin, Dublin</p>
                                                     </div>
                                                     <div>
-                                                        <label>E-mail:</label>
+                                                        <p>E-mail:</p>
                                                         <p>x00155628@mytudublin.ie</p>
                                                     </div>
                                                     <div>
-                                                        <label>Phone:</label>
+                                                        <p>Phone:</p>
                                                         <p>0838408640</p>
                                                     </div>
                                                 </div>
+                                                <div>
+                                                    <button type="button" class="btn" data-toggle="modal"
+                                                        data-target="#exampleModal">
+                                                        Social Media
+                                                    </button>
+                                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                        role="dialog" aria-labelledby="exampleModalLabel"
+                                                        aria-hidden="true">
+                                                        <div class="modal-dialog" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="exampleModalLabel">
+                                                                        Social Media</h5>
+                                                                    <button type="button" class="close"
+                                                                        data-dismiss="modal" aria-label="Close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="modal-body align-items-center">
+                                                                    <div class="inline-block">
+                                                                        <a
+                                                                            href="https://www.facebook.com/aaron.cullen.372/"><i
+                                                                                class="bi bi-facebook main-title"
+                                                                                ></i></a>
+                                                                    </div>
+                                                                    <div class="inline-block">
+                                                                        <a
+                                                                            href="https://www.instagram.com/aaron_.cullen/"><i
+                                                                                class="bi bi-instagram main-title"
+                                                                                ></i></a>
+                                                                    </div>
+                                                                    <div class="inline-block">
+                                                                        <a
+                                                                            href="https://www.linkedin.com/in/aaron-cullen-bb893217b/"><i
+                                                                                class="bi bi-linkedin main-title"
+                                                                                ></i></a>
+                                                                    </div>
+                                                                    <div class="inline-block">
+                                                                        <a href="https://github.com/AaronOCuileann"><i
+                                                                                class="bi bi-github main-title"
+                                                                                ></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div>
-                                        <img src="images/avatar-aaron.jpg" height="400px">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <br>
-                    <section class="text-white tm-font-big parallax3">
-                        <div class="text-center tm-hero-text-container" id="WorkExp">
-                            <div class="tm-hero-text-container">
-                                <h2 class="tm-hero-title">Work Experience</h2>
+                    <section class="text-white parallax2">
+                        <div class="text-center main-text-container" id="WorkExp">
+                            <div class="main-text-container">
+                                <h2 class="main-title">Work Experience</h2>
                             </div>
                         </div>
                     </section>
@@ -171,8 +219,13 @@
                                     ReactJS to develop projects. One of the projects I was working on was Nualang, a
                                     website that allows students and teachers to create courses and bots for learning,
                                     as well as developing a generic admin app for future projects.
-
-                                    Currently I am still working with Fathom part time while continuing on in my fourth year of college.
+                                    While working on this project, I was able to contribute with a few new features.
+                                    Some of these features include adding a cropping feature to the image upload
+                                    feature, which would allow the user to crop what they liked, as well as image
+                                    moderation on the images the users were attempting to upload through Amazon
+                                    Rekognition.
+                                    Currently I am still working with Fathom part time while continuing on in my fourth
+                                    year of college.
                                 </div>
                             </div>
                         </div>
@@ -204,10 +257,10 @@
                         </div>
                     </section>
                     <br>
-                    <section class="text-white tm-font-big parallax3">
-                        <div class="text-center tm-hero-text-container" id="Projects">
-                            <div class="tm-hero-text-container">
-                                <h2 class="tm-hero-title">Projects</h2>
+                    <section class="text-white parallax2">
+                        <div class="text-center main-text-container" id="Projects">
+                            <div class="main-text-container">
+                                <h2 class="main-title">Projects</h2>
                             </div>
                         </div>
                     </section>
@@ -241,17 +294,21 @@
                                             as a group during our third semester. We were learning how to use django as
                                             a web framework and used Python as the programming language for our project.
                                             FreshShop was an e-commerce website that would allow a user to login/logout
-                                            of their account, choose products and purchase those products.</p>
+                                            of their account, choose products and purchase those products. We then used
+                                            Stripe and Paypal as the payment methods for purchasing products, which
+                                            would then return a web receiept of the puchase you had made. We attempted
+                                            to keep the styling clear and visible for the users as this would prevent
+                                            any confusion in what they were attempting to look for.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <br>
-                    <section class="text-white tm-font-big parallax4">
-                        <div class="text-center tm-hero-text-container" id="Education">
-                            <div class="tm-hero-text-container">
-                                <h2 class="tm-hero-title">Education</h2>
+                    <section class="text-white parallax2">
+                        <div class="text-center main-text-container" id="Education">
+                            <div class="main-text-container">
+                                <h2 class="main-title">Education</h2>
                             </div>
                         </div>
                     </section>
@@ -263,9 +320,19 @@
                             </div>
                             <div class="col-md-6">
                                 <p>Currently I am in my 4th year of college studying Software Development at Technology
-                                    Universtiy Dublin, Tallaght Campus.</p>
+                                    Universtiy Dublin, Tallaght Campus. I began my degree in 2019 and am now doing my
+                                    final year.</p>
+                                <a class="btn" href="https://www.tudublin.ie/explore/our-campuses/tallaght/">Link to TUD -
+                                    Tallaght</a>
+                                    <br>
+                                <p>My previous educaiton conistst of attending Coláiste Chilliain, which is a fully
+                                    Irish teaching secondaru school. I learnt all my subjects through Irish and I was
+                                    also able to do my Leaving Cert through Irish as well due to this.</p>
+                                <a class="btn" href="https://www.colaistechilliain.ie/">Link to Coláiste Chilliain</a>
                             </div>
                         </div>
+                        <br>
+                        <br>
                         <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                 <button class="nav-link active" id="nav-year4-tab" data-bs-toggle="tab"
@@ -298,23 +365,23 @@
                                     <tbody>
                                         <tr>
                                             <td>IMD</td>
-                                            <td>(PENDING)</td>
+                                            <td>Not Received</td>
                                         </tr>
                                         <tr>
                                             <td>Information Management</td>
-                                            <td>(PENDING)</td>
+                                            <td>Not Received</td>
                                         </tr>
                                         <tr>
-                                            <td>Advanced Machine Learning</td>
-                                            <td>(PENDING)</td>
+                                            <td>Security for Cloud and the Internet of Things</td>
+                                            <td>Not Received</td>
                                         </tr>
                                         <tr>
                                             <td>EAD 1</td>
-                                            <td>(PENDING)</td>
+                                            <td>Not Received</td>
                                         </tr>
                                         <tr>
                                             <td>EPA</td>
-                                            <td>(PENDING)</td>
+                                            <td>Not Received</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -330,7 +397,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Experiential Learning - Internship</td>
+                                            <td>Experiential Learning</td>
                                             <td>Pass</td>
                                         </tr>
                                         <tr>
@@ -483,14 +550,13 @@
                                 </table>
                             </div>
                         </div>
-                        <!-- Tabs content -->
                         <br>
                     </section>
                     <br>
-                    <section class="text-white tm-font-big parallax3">
-                        <div class="text-center tm-hero-text-container" id="Interests">
-                            <div class="tm-hero-text-container">
-                                <h2 class="tm-hero-title">Interests</h2>
+                    <section class="text-white parallax2">
+                        <div class="text-center main-text-container" id="Interests">
+                            <div class="main-text-container">
+                                <h2 class="main-title">Interests</h2>
                             </div>
                         </div>
                     </section>
@@ -502,84 +568,63 @@
                                     <img class="card-img-top" src="images/swimming.png" alt="Card image cap"
                                         style="height: 250px;">
                                     <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed"
+                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse1"
                                             aria-expanded="true" aria-controls="collapse-collapsed"
                                             id="heading-collapsed">
                                             <i class="fa fa-chevron-down pull-right"></i>
                                             Swimming
                                         </a>
                                     </h5>
-                                    <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                                    <div id="collapse1" class="collapse in show" aria-labelledby="heading-collapsed">
                                         <div class="card-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                            richardson ad squid. 3 wolf moon
-                                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                            nesciunt laborum eiusmod. Brunch 3
-                                            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                            nulla assumenda shoreditch et.
-                                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident. Ad vegan
-                                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
-                                            denim aesthetic synth nesciunt
-                                            you probably haven't heard of them accusamus labore sustainable VHS.
+                                            One of my favourite activities is swimming. I am not with a swimming club
+                                            anymore but I was when I was growing up. Whenever I have the oppurtunity to
+                                            travel down to Arklow I am down at the beach everyday swimming in the sea.
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4" style="padding-bottom: 1em;">
                                 <div class="card">
                                     <img class="card-img-top" src="images/music.png" alt="Card image cap"
                                         style="height: 250px;">
                                     <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed"
+                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse2"
                                             aria-expanded="true" aria-controls="collapse-collapsed"
                                             id="heading-collapsed">
                                             <i class="fa fa-chevron-down pull-right"></i>
                                             Music
                                         </a>
                                     </h5>
-                                    <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                                    <div id="collapse2" class="collapse" aria-labelledby="heading-collapsed">
                                         <div class="card-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                            richardson ad squid. 3 wolf moon
-                                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                            nesciunt laborum eiusmod. Brunch 3
-                                            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                            nulla assumenda shoreditch et.
-                                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident. Ad vegan
-                                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
-                                            denim aesthetic synth nesciunt
-                                            you probably haven't heard of them accusamus labore sustainable VHS.
+                                            Music is a huge interest of mine, but it has recently become an even bigger
+                                            interest during the lockdown we had last year. I had began to start teaching
+                                            myself how to play guitar with all the free time that was available, trying
+                                            to practice daily whenever I could. I also enjoy listening to music
+                                            throughout the day.
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4" style="padding-bottom: 1em;">
                                 <div class="card">
                                     <img class="card-img-top" src="images/airplane.png" alt="Card image cap"
                                         style="height: 250px;">
                                     <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed"
+                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse3"
                                             aria-expanded="true" aria-controls="collapse-collapsed"
                                             id="heading-collapsed">
                                             <i class="fa fa-chevron-down pull-right"></i>
                                             Traveling
                                         </a>
                                     </h5>
-                                    <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                                    <div id="collapse3" class="collapse" aria-labelledby="heading-collapsed">
                                         <div class="card-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                            richardson ad squid. 3 wolf moon
-                                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                            nesciunt laborum eiusmod. Brunch 3
-                                            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                            nulla assumenda shoreditch et.
-                                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident. Ad vegan
-                                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
-                                            denim aesthetic synth nesciunt
-                                            you probably haven't heard of them accusamus labore sustainable VHS.
+                                            Over the summer i love being able to travel. It has been quite difficult the
+                                            past few years due to Covid, but because we have a mobile home in Arklow,
+                                            there is always the oppurtunity to head up into the mountains and camp there
+                                            for the night. I am hoping to be able to travel to America next year.
                                         </div>
                                     </div>
                                 </div>
@@ -589,26 +634,19 @@
                                     <img class="card-img-top" src="images/gaming.png" alt="Card image cap"
                                         style="height: 250px;">
                                     <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed"
+                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse4"
                                             aria-expanded="true" aria-controls="collapse-collapsed"
                                             id="heading-collapsed">
                                             <i class="fa fa-chevron-down pull-right"></i>
                                             Gaming
                                         </a>
                                     </h5>
-                                    <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                                    <div id="collapse4" class="collapse" aria-labelledby="heading-collapsed">
                                         <div class="card-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                            richardson ad squid. 3 wolf moon
-                                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                            nesciunt laborum eiusmod. Brunch 3
-                                            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                            nulla assumenda shoreditch et.
-                                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident. Ad vegan
-                                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
-                                            denim aesthetic synth nesciunt
-                                            you probably haven't heard of them accusamus labore sustainable VHS.
+                                            Whenever i have free time I love having the oppurtunity to play games on my
+                                            PC or on my Nintendo Switch. It's always fun being able to hop on a game
+                                            with your friends and have a good time and have a bit of competition between
+                                            everyone.
                                         </div>
                                     </div>
                                 </div>
@@ -618,26 +656,20 @@
                                     <img class="card-img-top" src="images/cooking.png" alt="Card image cap"
                                         style="height: 250px;">
                                     <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed"
+                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse5"
                                             aria-expanded="true" aria-controls="collapse-collapsed"
                                             id="heading-collapsed">
                                             <i class="fa fa-chevron-down pull-right"></i>
                                             Cooking
                                         </a>
                                     </h5>
-                                    <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                                    <div id="collapse5" class="collapse" aria-labelledby="heading-collapsed">
                                         <div class="card-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                            richardson ad squid. 3 wolf moon
-                                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                            nesciunt laborum eiusmod. Brunch 3
-                                            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                            nulla assumenda shoreditch et.
-                                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident. Ad vegan
-                                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
-                                            denim aesthetic synth nesciunt
-                                            you probably haven't heard of them accusamus labore sustainable VHS.
+                                            At home I have always enjoyed cooking and baking. I try to be creative as
+                                            possible when making lunches and dinners, sometimes for my family as well,
+                                            and trying to bake over the weekends if i have time available. One of my
+                                            favourite dishes to cook in spicy honey glazed chicken on a bed of rice with
+                                            onions.
                                         </div>
                                     </div>
                                 </div>
@@ -647,26 +679,19 @@
                                     <img class="card-img-top" src="images/exercise-icon-1.jpg" alt="Card image cap"
                                         style="height: 250px;">
                                     <h5 class="card-header">
-                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed"
+                                        <a class="collapsed d-block" data-toggle="collapse" href="#collapse6"
                                             aria-expanded="true" aria-controls="collapse-collapsed"
                                             id="heading-collapsed">
                                             <i class="fa fa-chevron-down pull-right"></i>
                                             Working Out
                                         </a>
                                     </h5>
-                                    <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                                    <div id="collapse6" class="collapse" aria-labelledby="heading-collapsed">
                                         <div class="card-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                            richardson ad squid. 3 wolf moon
-                                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                            nesciunt laborum eiusmod. Brunch 3
-                                            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                            nulla assumenda shoreditch et.
-                                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident. Ad vegan
-                                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
-                                            denim aesthetic synth nesciunt
-                                            you probably haven't heard of them accusamus labore sustainable VHS.
+                                            One of my favourite hobbies is working out. I try to exercise five times a
+                                            week when possible which woulc consist of cycling, jogging and going to the
+                                            gym, where I would be doing free weights or working out with the exercise
+                                            machines.
                                         </div>
                                     </div>
                                 </div>
@@ -675,22 +700,22 @@
                         </div>
                     </section>
                     <br>
-                    <section class="text-white tm-font-big parallax5">
-                        <div class="text-center tm-hero-text-container" id="Contact">
-                            <div class="tm-hero-text-container">
-                                <h2 class="tm-hero-title">Contact</h2>
+                    <section class="text-white parallax2">
+                        <div class="text-center main-text-container" id="Contact">
+                            <div class="main-text-container">
+                                <h2 class="main-title">Contact</h2>
                             </div>
                         </div>
                     </section>
                     <br>
-                    <section style="padding: 2em;">
-                        <form>
+                    <section>
+                        <form id="submit-form" class="contact-form">
                             <div class="row center">
                                 <div class="col-md-11">
                                     <div class="form-group col-md-6">
                                         <label for="exampleInputEmail1">Name</label>
                                         <input type="text" class="form-control" id="exampleInputName1"
-                                            aria-describedby="emailHelp" placeholder="Enter email">
+                                            aria-describedby="emailHelp" placeholder="Enter name">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="exampleInputEmail1">Email address</label>
@@ -700,16 +725,18 @@
                                             with
                                             anyone else.</small>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                                    <div class="form-group col-md-12">
+                                        <label for="exampleFormControlTextarea1">Text Area</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1"
                                             rows="3"></textarea>
                                     </div>
-                                    <button id="btn" type="submit" class="btn btn-primary">Submit</button>
-                                    <div>
+                                    <div class="form-group col-md-12">
+                                        <button id="submit-btn" class="btn" type="button">Submit</button>
+                                    </div>
+                                    <div class="form-group col-md-12">
                                         <div class="alert alert-success hidden" id="success-alert">
                                             <button type="button" class="close">x</button>
-                                            <span class="glyphicon glyphicon-ok"></span> Your info has been sent!
+                                            <span class="bi bi-check-circle-fill"></span> Your info has been sent!
                                         </div>
                                     </div>
                                 </div>
@@ -727,16 +754,16 @@
                                             style="font-size: 2rem;"></i></a>
                                 </div>
                             </div>
+                            <!-- This google map feature was made from this url: https://google-map-generator.com/ -->
+                            <div class="mapouter" style="padding-left: 1em;">
+                                <div class="gmap_canvas"><iframe width="1200" height="563" id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=Blessington%20Rd,%20Tallaght,%20Dublin%2024,%20D24%20FKT9&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                        href=></a><br>
+                                </div>
+                            </div>
                         </form>
                         <br>
-                        <!-- This google map feature was made from this url: https://google-map-generator.com/ -->
-                        <div class="mapouter" style="padding-left: 1em;">
-                            <div class="gmap_canvas"><iframe width="1200" height="563" id="gmap_canvas"
-                                    src="https://maps.google.com/maps?q=Blessington%20Rd,%20Tallaght,%20Dublin%2024,%20D24%20FKT9&t=&z=19&ie=UTF8&iwloc=&output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                    href="https://123movies-to.org"></a><br>
-                            </div>
-                        </div>
                     </section>
                     <br>
                     <br>
@@ -760,7 +787,8 @@
         crossorigin="anonymous"></script>
     <script>
         $(document).ready(function () {
-            $("#btn").click(function () {
+            $("#submit-btn").click(function () {
+                document.getElementById("submit-form").reset();
                 $('#success-alert').removeClass('hidden');
             });
             $("button.close").click(function () {
@@ -768,6 +796,14 @@
             });
 
         });
+    </script>
+    <!-- I got this example from w3schools - https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_clock -->
+    <script>
+        var clockElement = document.getElementById('clock');
+        function clock() {
+            clockElement.textContent = new Date().toUTCString();
+        }
+        setInterval(clock, 1000);
     </script>
 </body>
 
